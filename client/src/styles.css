@@ -6,9 +6,7 @@ Student ID : 300950762
 */
 
 
-.fbar{
-  background: black;
-}
+
 body{
 	margin:0;
 	padding:0;
@@ -27,6 +25,9 @@ body{
 	color: white;
 	font-family: 'Century Gothic',sans-serif;
 }
+
+
+
 
 .box-img{
 	border-radius: 100px;
