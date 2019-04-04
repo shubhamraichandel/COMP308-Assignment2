@@ -1,13 +1,42 @@
-<app-base-page></app-base-page>>
-<div *ngIf="isLoggedIn()" class="container">
-  <div class="row">
-    <div class="col col-md-6">
-      <div class="card">
-        <h5 class="card-header alert-success">Secure</h5>
-        <div class="card-body">
-          <a routerLink="contact-list" class="btn btn-primary"><i class="fas fa-users fa-lg"></i> Contact List</a>
-        </div>
+<app-base-page></app-base-page>
+<!--Content-->
+
+<div class="container mt-4 align-items-center">
+
+  <h1 class="display-4">Love to hear from you..</h1>
+
+  <form>
+    <div class="row">
+
+        <div class="form-group col-4">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+          </div>
+          <div class="form-group col-4">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+          </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group col-4">
+          <label for="phone">Contact Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter conatct number">
+      </div>
+      <div class="form-group col-4">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="phone" placeholder="Enter email">
       </div>
     </div>
-  </div>
+
+    <div class="row">
+      <div class="form-group col-8">
+          <label for="message">Message</label>
+          <input type="text" class="form-control input-lg" id="message" placeholder="Your message">
+      </div>
+      </div>
+
+      <a class="btn btn-dark" href="/">Submit</a>
+    </form>
+
 </div>
